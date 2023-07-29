@@ -2,7 +2,7 @@
 import java.sql.*; //import the package
 public class ExecuteQuery {
 	public static void main(String[] args) throws Exception {
-		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="kamalika01";
+		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="********";
 		//String query="select sname from students where sid=1";
 		Class.forName("com.mysql.cj.jdbc.Driver"); //load and register the driver
 		Connection con = DriverManager.getConnection(url,uname,pass); //build connection
