@@ -1,7 +1,7 @@
 import java.sql.*;
 public class Prepared {
 	public static void main(String[] args) throws Exception{
-		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="kamalika01";
+		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="********";
 		String query="insert into students values (?,?)";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con=DriverManager.getConnection(url,uname,pass);
