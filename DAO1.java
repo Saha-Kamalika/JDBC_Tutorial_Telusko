@@ -11,7 +11,7 @@ public class DAO1 {
 class DetailsDao1{
 	public void addDetails(Details1 d) {
 		try {
-			String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="kamalika01";
+			String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="";
 			String query="insert into details values (?,?)";
 	
 			Class.forName("com.mysql.cj.jdbc.Driver");
