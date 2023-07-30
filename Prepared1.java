@@ -8,7 +8,7 @@ public class Prepared1 {
 		Scanner sc=new Scanner(System.in);
 		int id,fc=0;
 		String name;
-		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="kamalika01";
+		String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="********";
 		String query="insert into students values (?,?)";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con=DriverManager.getConnection(url,uname,pass);
