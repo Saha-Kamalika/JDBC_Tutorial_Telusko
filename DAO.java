@@ -10,7 +10,7 @@ class DetailsDao{
 	public Details getDetails(int id) {
 		
 		try {
-			String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="kamalika01";
+			String url="jdbc:mysql://localhost:3306/mydata", uname="root", pass="";
 			String query="select name from details where id="+id;
 			Details d=new Details();
 			d.id=id;
